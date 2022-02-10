@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    --PRIMARY-COLOR:black;
+    --SECONDARY-COLOR:green;
+    --BACKGROUND-COLOR:gray;
+    --TEXT-COLOR:white;
+    --MAIN-FONT: 'Montserrat', sans-serif;
+
+    /* border:2px solid gray; */
+}
+
+/* NAVBAR */
+nav{
+    background: var(--BACKGROUND-COLOR);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 2px solid var(--PRIMARY-COLOR); */
+    padding: 2.2rem 2rem;
+}
+
+.nav-brand{
+    font-size: 2rem;
+    text-shadow: none;
+    color: var(--PRIMARY-COLOR);
+}
+.nav-list{
+    /* border: solid; */
+    /* width: 100%; */
+
+}
+.nav-list input{
+    width: 135%;
+    color: var(--TEXT-COLOR);
+    border: 1px solid var(--PRIMARY-COLOR);
+}
+/* Search Icon inside Input field */
+.icon {
+    padding-left: 2rem;
+    background: url("https://www.investate.com.au/wp-content/plugins/helpie-faq//assets/img/search-icon.png") no-repeat left;
+    background-size: 2rem;
+  }
+
+
+.btn{
+    border-radius:1px;
+}
+
+.badge{
+    font-size: 1.5rem;
+    color: var(--PRIMARY-COLOR);
+    padding: 10px;
+    /* border: solid; */
+}
+.badge-circle{
+    padding: 5px;
+}
+.badge-right{
+    font-size: 10px;
+}
