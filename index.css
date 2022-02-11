@@ -148,7 +148,6 @@ header p{
     justify-content: space-evenly;
     align-items: center;
     flex-wrap: nowrap;
-    max-width: 1300px;
     margin:1rem;
     flex: 1;
 }
