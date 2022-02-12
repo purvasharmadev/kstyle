@@ -120,6 +120,10 @@ header p{
     font-size: 10px;
 }
 
+.mt-top{
+    margin-top: 4rem;
+}
+
 .banner-container{
     margin: 4rem auto 0;
     display: flex;
@@ -162,4 +166,12 @@ header p{
 .card-body{
     padding: 4rem 1rem;
     text-align: left;
+}
+
+
+@media (max-width:600px) {
+    nav{
+        display: none;
+    }
+    
 }
