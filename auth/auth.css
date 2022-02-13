@@ -1,9 +1,8 @@
 @import url("/index.css");
 
 .input-container{
-    max-width: 500px;
+    max-width: 31.25rem;
     margin:25vh auto;
-    /* max-height: 100vh; */
 }
 
 /* heading */
