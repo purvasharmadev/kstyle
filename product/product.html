@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://glow-css.netlify.app/component.css">
+    <link rel="stylesheet" href="product.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <title>KStyle | Products</title>
+</head>
+
+<body>
+
+    <!-- NavBar -->
+    <nav id="top">
+        <ul class="nav-list">
+            <li class="nav-item nav-brand"><a href="/index.html" class="nav-link link">KStyle</a></li>
+        </ul>
+        <ul class="nav-list">
+            <li class="nav-item"><input type="text" class="icon" placeholder="search here"></li>
+        </ul>
+        <ul class="nav-list">
+            <li class="nav-item"><a href="/auth/login.html" class="nav-link btn btn-primary">Login</a></li>
+            <li class="nav-item"><a href="/doc.html" class="nav-link"><span class="badge badge-span">
+                        <i class="fa fa-heart fa-x"></i>
+                        <span class="badge-circle badge-right"> 2 </span>
+                    </span></a></li>
+            <li class="nav-item"><a href="/doc.html" class="nav-link link"><span class="badge badge-span">
+                        <i class="fa fa-cart-plus fa-x"></i>
+                        <span class="badge-circle badge-right"> 0 </span></span> Cart
+                </a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="flex mt-top">
+
+        <!-- Filter Column -->
+        <aside class="p-1">
+            <div class="flex flex-space-between">
+                <h3>Filter</h3>
+                <span><a href="#" class="link">Clear</a></span>
+            </div>
+
+            <!-- Price -->
+            <h3 class="m-head">Price</h3>
+            <div class="sliderContainer">
+                <label for="priceRange" class="flex flex-space-between"><span>50</span> <span>150</span>
+                    <span>200</span></label>
+                <input type="range" min="50" max="200" value="125" id="priceRange">
+            </div>
+
+            <!-- Category -->
+            <h3 class="m-head">Category</h3>
+            <ul class="list-bullet-none">
+                <li><input type="checkbox" value="checked" name="item1" id="item"> Kpop T-Shirts</li>
+                <li><input type="checkbox" name="item2" id="item"> Kpop Hoodies</li>
+                <li><input type="checkbox" name="item3" id="item"> Kpop Idol Fashion</li>
+                <li><input type="checkbox" name="item4" id="item">Kpop Albums</li>
+                <li><input type="checkbox" name="item5" id="item">Kpop POCA</li>
+                <li><input type="checkbox" name="item5" id="item">Kpop LightSticks</li>
+            </ul>
+
+            <!-- Rating -->
+            <h3 class="m-head">Rating</h3>
+            <ul class="list-bullet-none">
+                <li><input type="radio" name="ratingInput" id="rating"> 4 start & above </li>
+                <li><input type="radio" name="ratingInput" id="rating"> 3 start & above </li>
+                <li><input type="radio" name="ratingInput" id="rating"> 2 start & above </li>
+                <li><input type="radio" name="ratingInput" id="rating"> 1 start & above </li>
+            </ul>
+
+            <!-- Sort BY -->
+            <h3 class="m-head">Sort By</h3>
+            <ul class="list-bullet-none">
+                <li><input type="radio" name="sortInput" id="sort"> Low To High </li>
+                <li><input type="radio" name="sortInput" id="sort"> High To Low </li>
+            </ul>
+        </aside>
+
+        <!-- Product column -->
+        <main class="w-100 p-1">
+            <h2>Products <span class="highlight-text">( Showing 20 products )</span></h2>
+
+            <!--Product Container  -->
+            <div class="product-container">
+
+                <div class="card ecom-card">
+                    <div class="card-header position-relative">
+                        <span class="card-badge"> ❤ </span>
+                        <span class="ecom-badge"> New Arrival </span>
+                         <img height="268px" width="268px"
+                            src="https://media.karousell.com/media/photos/products/2022/1/18/wtb_bts_jimin_hoodie_1642473102_113acfee_progressive_thumbnail.jpg" alt="productImg" />
+                        <span class="category">Kpop Hoodies</span>
+                    </div>
+                    <div class="card-body">
+                        <h3 class="card-heading">With You Hoody</h3>
+                        <p class="card-text">
+                            Rs. 1999 only. <span class="ecom-card-price">Rs. 2999</span> 
+                        </p>
+                    </div>
+                    <div class="card-footer">
+                        <button class="btn btn-primary">Add To Cart</button>
+                    </div>
+                </div>
+
+
+                <div class="card ecom-card">
+                    <div class="card-header position-relative">
+                        <span class="card-badge"> ❤ </span>
+                        <span class="ecom-badge"> New Arrival </span>
+                        <img height="268px" width="268px"
+                            src="https://cf.shopee.com.my/file/1e4aab2e5f5aca0a6cc82596f07ae22c" alt="productImg"/>
+                        <span class="category">Kpop T-Shirts</span>
+                    </div>
+                    <div class="card-body">
+                        <h3 class="card-heading">J-hope Obey T-shirt</h3>
+                        <p class="card-text">Rs. 1999 only. <span class="ecom-card-price">Rs. 2999</span> </p>
+                    </div>
+                    <div class="card-footer">
+                        <button class="btn btn-primary">Add To Cart</button>
+                    </div>
+                </div>
+
+
+
+                <div class="card ecom-card">
+                    <div class="card-header position-relative">
+                        <span class="card-badge"> ❤ </span>
+                        <img height="268px" width="268px"
+                            src="https://m.media-amazon.com/images/I/61mPO2JaTnS._SL1280_.jpg" alt="productImg" />
+                        <span class="category">Kpop Album</span>
+                    </div>
+                    <div class="card-body">
+                        <h3 class="card-heading">TXT Dream Chapter:MAGIC</h3>
+                        <p class="card-text">Rs. 1999 only. <span class="ecom-card-price">Rs. 2999</span> </p>
+                    </div>
+                    <div class="card-footer">
+                        <button class="btn btn-primary">Add To Cart</button>
+                    </div>
+                </div>
+
+                <div class="card ecom-card">
+                    <div class="card-header position-relative">
+                        <span class="card-badge"> ❤ </span>
+                        <span class="ecom-badge"> New Arrival </span>
+
+                        <img height="268px" width="268px"
+                            src="https://media.karousell.com/media/photos/products/2022/1/18/wtb_bts_jimin_hoodie_1642473102_113acfee_progressive_thumbnail.jpg" alt="productImg" />
+                        <span class="category">Kpop Hoodies</span>
+
+                    </div>
+                    <div class="card-body">
+                        <h3 class="card-heading">With You Hoody</h3>
+                        <p class="card-text">
+
+                            Rs. 1999 only. <span class="ecom-card-price">Rs. 2999</span> </p>
+                    </div>
+                    <div class="card-footer">
+                        <button class="btn btn-primary">Add To Cart</button>
+                    </div>
+                </div>
+
+
+
+                <div class="card ecom-card">
+                    <div class="card-header position-relative">
+                        <span class="card-badge"> ❤ </span>
+                        <img height="268px" width="268px"
+                            src="https://cf.shopee.com.my/file/2c8ab8b0dd277741a7ecc71a674b9523" alt="productImg"/>
+                        <span class="category">Kpop POCA</span>
+                    </div>
+                    <div class="card-body">
+                        <h3 class="card-heading">BlackPink LOMO Cards</h3>
+                        <p class="card-text">Rs. 1999 only. <span class="ecom-card-price">Rs. 2999</span> </p>
+                    </div>
+                    <div class="card-footer">
+                        <button class="btn btn-primary">Add To Cart</button>
+                    </div>
+                </div>
+
+
+            </div>
+        </main>
+    </div>
+
+
+</body>
+
+</html>
