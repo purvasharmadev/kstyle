@@ -1,0 +1,137 @@
+/* Basic Margin Classes */
+.m-auto {
+    margin: auto;
+}
+
+.mb-0 {
+    margin-bottom: 0;
+}
+
+.mb-1 {
+    margin-bottom: 1rem;
+}
+
+.m-1 {
+    margin: 1rem;
+}
+
+.ml-auto {
+    margin-left: auto;
+}
+
+/* Basic Padding Classes */
+.p-0 {
+    padding: 0;
+}
+
+.p-1 {
+    padding: 1rem;
+}
+
+.pl-0 {
+    padding-left: 0.5rem;
+}
+
+.pl-1 {
+    padding-left: 1rem;
+}
+
+.pr-0 {
+    padding-right: 0.5rem;
+}
+
+.pr-1 {
+    padding-right: 1rem;
+}
+
+.pt-0 {
+    padding-top: 0.5rem;
+}
+
+.pt-1 {
+    padding-top: 1rem;
+}
+
+.pb-1 {
+    padding-bottom: 1rem;
+}
+
+/* Basic Width Classes */
+.w-100 {
+    width: 100%;
+}
+
+.w-50 {
+    width: 50%;
+}
+
+.w-25 {
+    width: 25%;
+}
+
+
+/* List */
+.list-bullet-none {
+    list-style: none;
+}
+
+/* Basic Border */
+.border {
+    border: solid;
+}
+
+
+/* basic positioning */
+
+.position-relative {
+    position: relative;
+}
+
+.position-absolute {
+    position: absolute;
+}
+
+.position-fixed {
+    position: fixed;
+}
+
+/* Basic FlexBox Classes */
+.flex {
+    display: flex;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.flex-row {
+    flex-direction: row;
+}
+
+.flex-space-between {
+    justify-content: space-between;
+}
+
+.flex-space-evenly {
+    justify-content: space-evenly;
+}
+
+.flex-space-center {
+    justify-content: center;
+}
+
+.flex-start {
+    justify-content: flex-start;
+}
+
+.flex-end {
+    justify-content: flex-end;
+}
+
+.align-item-center {
+    align-items: center;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
