@@ -102,8 +102,8 @@ header p {
 .nav-item .avatar.avatar-sm{
     border: 2px solid var(--PRIMARY-COLOR);
     cursor: pointer;
-    height: 45px;
-    width: 45px;
+    height: 2.813rem;
+    width: 2.813rem;
 }
 
 .btn {
