@@ -201,11 +201,20 @@ main h2 {
     text-transform: capitalize;
 }
 
+
+.card{
+    background: none;
+}
+
 .card-badge:hover{
       cursor: pointer;
   }
 
-  .card-header .category{
+  .card-footer .btn{
+      padding: 0.625rem;
+  }
+
+.category{
       color:var(--TEXT-COLOR);
       position: absolute;
       bottom: 1.5rem;
@@ -217,5 +226,7 @@ main h2 {
       z-index: 1;
       opacity: 0.9;
 }
+
+
 
 
