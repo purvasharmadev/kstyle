@@ -210,8 +210,8 @@ main h2 {
       cursor: pointer;
   }
 
-  .card-footer .btn{
-      padding: 0.625rem;
+.card-footer .btn{
+      padding: 10px;
   }
 
 .category{
