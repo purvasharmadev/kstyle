@@ -7,6 +7,7 @@
     --SECONDARY-COLOR: #a855f7;
     --BACKGROUND-COLOR: #e5e7eb;
     --TEXT-COLOR: white;
+    --GRAY-COLOR:#374151;
     --MAIN-FONT: 'Montserrat', sans-serif;
 }
 
@@ -23,7 +24,7 @@ nav {
     width: 100%;
     position: fixed;
     top: 0;
-    z-index: 1;
+    z-index: 2;
 }
 
 header {
