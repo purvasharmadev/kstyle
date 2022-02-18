@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://glow-css.netlify.app/component.css">
+    <link rel="stylesheet" href="/cart-management/cart.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <title>Kstyle | Cart</title>
+</head>
+
+<body>
+    <!-- NavBar -->
+    <nav id="top">
+        <ul class="nav-list">
+            <li class="nav-item nav-brand"><a href="/index.html" class="nav-link link">KStyle</a></li>
+        </ul>
+        <ul class="nav-list">
+            <li class="nav-item"><input type="text" class="icon" placeholder="search here"></li>
+        </ul>
+        <ul class="nav-list">
+            <li class="nav-item"><a href="/wishlist.html" class="nav-link"><span class="badge badge-span">
+                        <i class="fa fa-heart fa-x"></i>
+                        <span class="badge-circle badge-right"> 2 </span>
+                    </span></a></li>
+            <li class="nav-item"><a href="/cart.html" class="nav-link link"><span class="badge badge-span">
+                        <i class="fa fa-cart-plus fa-x"></i>
+                        <span class="badge-circle badge-right"> 0 </span></span> Cart
+                </a></li>
+            <li class="nav-item position-relative tooltip"><img
+                    src="https://i.pinimg.com/736x/b8/03/78/b80378993da7282e58b35bdd3adbce89.jpg"
+                    class="avatar avatar-sm" alt="profile-pic" id="logout">
+                <span class="tooltip-text"><a href="/" class="link">Logout</a></span>
+            </li>
+        </ul>
+    </nav>
+        <h2 class="p-1 text-center mt-top">My Cart <span class="highlight-text">(2)</span></h2>
+
+        <div class="flex flex-space-evenly p-1 h-100">
+        
+            <div class="p-1">
+            <!-- Product Details -->
+            <div class="flex cart-card mb-1">
+                <div class="cart-img position-relative" >
+                    <img height="280px" width="242px"
+                    src="https://media.karousell.com/media/photos/products/2022/1/18/wtb_bts_jimin_hoodie_1642473102_113acfee_progressive_thumbnail.jpg" alt="productImg">
+                    <span class="category">Kpop Hoodies</span>
+                </div>
+                <div class="cart-details">
+                    <h3 class="cart-heading mb-1">With You Hoody</h3>
+                    <h4 class="cart-price mb-1">Rs.1999 <span class="ecom-card-price highlight-text">Rs. 4999</span> </h4>
+                    <h6 class="discount mb-1">50% off</h6>
+                    <h6 class="mb-1"><a href="/" class="btn-icon pl-0"><i class="fa fa-plus"></i></a> <span class="counter-text">0</span><a href="/" class="btn-icon"><i class="fa fa-minus"></i></a> </h6>
+
+                    <div class="cart-btn">
+                        <a href="/" class="btn btn-primary ">Remove From Cart</a>
+                        <a href="/" class="m-1 btn btn-secondary-outline">Add to wishlist</a>
+                    </div>
+
+                </div>
+            </div>
+            <div class="flex cart-card">
+                <div class="cart-img position-relative">
+                    <img height="280px" width="242px"
+                        src="https://cf.shopee.com.my/file/1e4aab2e5f5aca0a6cc82596f07ae22c" alt="productImg"/>
+                    <span class="category">Kpop T-Shirts</span>
+
+                </div>
+                <div class="cart-details">
+                    <h3 class="cart-heading mb-1">J-Hope Obey T-shirt</h3>
+                    <h4 class="cart-price mb-1">Rs.1999 <span class="ecom-card-price highlight-text">Rs. 4999</span> </h4>
+                    <h6 class="discount mb-1">50% off</h6>
+                    <h6 class="mb-1"><a href="/" class="btn-icon pl-0"><i class="fa fa-plus"></i></a> <span class="counter-text">0</span><a href="/" class="btn-icon"><i class="fa fa-minus"></i></a> </h6>
+
+                    <div class="cart-btn">
+                        <a href="/" class="btn btn-primary ">Remove From Cart</a>
+                        <a href="/" class="m-1 btn btn-secondary-outline">Add to wishlist</a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+            <!-- Product Price Details -->
+
+            <div class="card cart-card p-1">
+
+                <h2 class="order-head">Price Details</h2>
+
+                <div class="order-flex flex flex-space-between align-item-center">
+                    <div class="order-detail">
+                        <h3>Price ( 2 Items )</h3>
+                        <h3>Discount</h3>
+                        <h3>Delivery Charges</h3>
+                    </div>
+                    <div class="price-detail">
+                        <h3>Rs. 4999</h3>
+                        <h3>-Rs. 1999</h3>
+                        <h3>Rs. 499</h3>
+                    </div>
+                </div>
+                <div class="order-flex flex flex-space-between align-item-center mb-1">
+                    <div class="order-detail">
+                        <h3>Total</h3>
+                    </div>
+                    <div class="price-detail">
+                        <h3>Rs. 3499</h3>
+                    </div>
+                </div>
+                <div>
+                <h3 class="mb-1 p-1">You will save <span class="highlight-text"> Rs. 1999 </span>on this order.
+                </h3>
+                <button class="btn btn-primary w-100">Place Order</button>
+            </div>
+
+            </div>
+
+        </div>
+    
+</body>
+
+</html>
