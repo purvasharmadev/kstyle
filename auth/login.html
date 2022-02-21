@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,47 +10,52 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
     <title>KStyle | Login</title>
 </head>
+
 <body>
     <nav id="top">
         <ul class="nav-list">
             <li class="nav-item nav-brand"><a href="/index.html" class="nav-link link">KStyle</a></li>
-
         </ul>
+        
         <ul class="nav-list">
             <li class="nav-item"><input type="text" class="icon" placeholder="search here"></li>
         </ul>
 
         <ul class="nav-list">
-            <li class="nav-item"><a href="/auth/login.html" class="nav-link btn btn-primary">Login</a></li>
             <li class="nav-item"><a href="/doc.html" class="nav-link"><span class="badge badge-span">
                         <i class="fa fa-heart fa-x"></i>
                         <span class="badge-circle badge-right"> 0 </span>
                     </span></a></li>
             <li class="nav-item"><a href="/doc.html" class="nav-link link"><span class="badge badge-span">
                         <i class="fa fa-cart-plus fa-x"></i>
-                        <span class="badge-circle badge-right"> 0 </span></span> Cart
+                        <span class="badge-circle badge-right"> 0 </span></span>
                 </a></li>
+            <li class="nav-item"><a href="/auth/login.html" class="nav-link btn btn-primary">Login</a></li>
+
         </ul>
     </nav>
 
-    <div class = "input-container mt-top">
-        <h2 class="form-heading">Login</h2> 
+    <div class="input-container mt-top">
+        <h2 class="form-heading">Login</h2>
 
-     <form action = "" class = "form-container">
-        <label for = "email">Email</label>
-        <input type = "email" name = "email" placeholder = "yourname@mail.com">
-        <label for = "password">Password </label>
-        <input type = "password" name = "password" placeholder = "********">
-        <div>
-            <label for="remember-me"><input type="checkbox" name="remember-me" checked="checked" id="remember-me-check">Remember Me</label>
-            <a href="/forgot-password" class="link">Forgot Your Password ?</a>
-        </div>
-        
-       <a class="btn btn-primary " href="/auth/login.html">Login</a>
+        <form action="" class="form-container">
+            <label for="email">Email</label>
+            <input type="email" name="email" placeholder="yourname@mail.com">
+            <label for="password">Password </label>
+            <input type="password" name="password" placeholder="********">
+            <div>
+                <label for="remember-me"><input type="checkbox" name="remember-me" checked="checked"
+                        id="remember-me-check">Remember Me</label>
+                <a href="/forgot-password" class="link">Forgot Your Password ?</a>
+            </div>
 
-        <h4><a href="/auth/sign-up.html" class="link">Create A New Account <i class="fa fa-arrow-right fa-x"></i> </a></h4>
-    </form>
+            <a class="btn btn-primary " href="/auth/login.html">Login</a>
 
-        </div>
+            <h4><a href="/auth/sign-up.html" class="link">Create A New Account <i class="fa fa-arrow-right fa-x"></i>
+                </a></h4>
+        </form>
+
+    </div>
 </body>
+
 </html>
