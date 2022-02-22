@@ -3,7 +3,7 @@
 
 ## Overview
 
-![screenshot](/Assets/readme-img/k-style-gif.gif)
+![screenshot](/Assets/readme-img/kstyle-gif.gif)
 
 
 
