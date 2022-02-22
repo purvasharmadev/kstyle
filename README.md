@@ -9,15 +9,15 @@
 
 ## Features:
 
-- [Home](https://k-style.netlify.app/)
+- [Home](https://github.com/purvasharmadev/kstyle/blob/development/index.html)
 
-- [Authentication](https://k-style.netlify.app/)
+- [Authentication](https://github.com/purvasharmadev/kstyle/tree/development/auth)
 
-- [Products](https://k-style.netlify.app/)
+- [Products](https://github.com/purvasharmadev/kstyle/tree/development/product)
 
-- [Wishlist](https://k-style.netlify.app/)
+- [Wishlist](https://github.com/purvasharmadev/kstyle/tree/development/wishlist)
 
-- [Cart](https://k-style.netlify.app/)
+- [Cart](https://github.com/purvasharmadev/kstyle/tree/development/cart-management)
 
 
 ## Build with:
